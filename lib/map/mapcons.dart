@@ -1,5 +1,5 @@
 void main() {
-  var s = new Map();
+  var s = {};
   s['Name'] = 'Tom';
   s['Age'] = '23';
   s['Course'] = 'Btech';

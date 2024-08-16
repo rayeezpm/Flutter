@@ -1,6 +1,6 @@
 int? seclarge(List<int> n) {
   int l = n[0];
-  int? sl = null;
+  int? sl;
 
   for (int i = 1; i < n.length; i++) {
     int num = n[i];
