@@ -4,8 +4,7 @@ class Bicycle {
   int? currentSpeed;
 
   void changeGear(int n) {
-    int s = n;
-    switch (s) {
+    switch (n) {
       case 1:
         n = 5;
         break;
@@ -37,6 +36,6 @@ void main() {
   bicycle.colour = 'red';
   bicycle.size = 5;
   bicycle.currentSpeed = 0;
-  bicycle.changeGear(5);
+  bicycle.changeGear(4);
   bicycle.display();
 }
