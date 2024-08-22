@@ -6,7 +6,7 @@ class camera {
   void display() {
     print('Camera name: $name');
     print('Camera color: $color');
-    print('Camera MegaPixel: $megapixel\MP');
+    print('Camera MegaPixel: ${megapixel}MP');
   }
 }
 
