@@ -12,6 +12,6 @@ class Customer {
 }
 
 void main() {
-  Customer customer = Customer('Bob', 42, 9876543210);
+  Customer customer = const Customer('Bob', 42, 9876543210);
   customer.display();
 }

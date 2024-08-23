@@ -3,8 +3,8 @@ class Laptop {
   int? prize;
 
   Laptop() {
-    this.brand = brand='HP';
-    this.prize = prize=50000;
+    brand = brand='HP';
+    prize = prize=50000;
   }
   void display() {
     print('Brand: $brand');
