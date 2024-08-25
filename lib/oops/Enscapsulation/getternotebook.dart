@@ -1,6 +1,6 @@
 class Notebook {
-  String? _name;
-  int? _prize;
+  final String? _name;
+  final int? _prize;
   Notebook(this._name, this._prize);
   String get name => _name!;
   int get prize => _prize!;

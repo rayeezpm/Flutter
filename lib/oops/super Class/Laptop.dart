@@ -5,6 +5,7 @@ class Laptop {
 }
 
 class Macbook extends Laptop {
+  @override
   void show() {
     super.show();
     print('macbook show method');
@@ -12,6 +13,6 @@ class Macbook extends Laptop {
 }
 
 void main() {
-  Macbook macbook = Macbook();
+  Laptop macbook = Macbook();
   macbook.show();
 }

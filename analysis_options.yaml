@@ -9,6 +9,7 @@
 # packages, and plugins designed to encourage good coding practices.
 analyzer:
   errors:
+    file_names: ignore
     use_function_type_syntax_for_parameters: ignore
 include: package:flutter_lints/flutter.yaml
 

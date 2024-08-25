@@ -5,6 +5,7 @@ class Animal {
 }
 
 class Dog extends Animal {
+  @override
   void sound() {
     super.sound();
     print('bark');
@@ -12,6 +13,6 @@ class Dog extends Animal {
 }
 
 void main() {
-  Dog dog = Dog();
+  Animal dog = Dog();
   dog.sound();
 }
