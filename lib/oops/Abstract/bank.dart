@@ -1,6 +1,3 @@
-// create an abstract class Bank with a constructor that takes two parameters name and rate. There is an abstract method interest().
-//The subclasses SBI and ICICI implement the abstract method and override it to print the interest rate.
-
 abstract class Bank {
   String? name;
   double? rate;
